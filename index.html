@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>SPORTS ACADEMY</title>
+	<link rel="stylesheet" type="text/css" href="/sportacademy/css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	
+
+</head>
+<body style= "background-color:white; margin:0px; padding:0px">
+	<div id="color">
+	<header>
+		<span class="glyphicon glyphicon-envelope"></span>
+		<a href="mailto:vijaymishravm99@gmail.com" style="text-align:right color:white ;text-decoration: none; color:white" >vijaymishravm99@gmail.com</a>&nbsp;&nbsp;
+		&#9743;<a href="Mobile:555-555-1212" style="text-align:right; text-decoration: none;color:white">8009031061</a>
+	
+	</header>
+		
+		<div id="b">
+		<nav id="nav">
+    	<ul id="navigation">
+		        	<li><a href="index.html" class="first">Home</a></li>
+        			<li><a href="who.html">Who We Are</a></li>
+        			<li><a href="#">Sports</a>
+            		<ul>
+                		<li><a href="cricket.html" target="_self">Cricket</a></li>
+                		<li><a href="football.html" >Football</a></li>
+                		<li><a href="badminton.html">Badminton</a></li>
+                		<li><a href="hockey.html">Hockey</a></li>
+            		</ul>
+        			</li>
+        			
+        			<li><a href="tournament.html">Tourment</a></li>
+        			<li><a href="contact.html">Contact Us</a></li>
+        			<li><a href="#">Login</a>
+            			<ul>
+                			<li><a href="stud1.php">Student</a></li>
+                			<li><a href="admin.php">Admin</a></li>
+            			</ul>
+        			</li>
+        			<li><a href="Reg1.php">Registration</a></li>
+        
+        		</ul></li>
+		</nav>
+		<br><br><br>
+	<div class="slideshow-container">
+	<div class="mySlides fade">
+  	<img src="/sportacademy/image/1.jpg" width="100%" height="700">
+  
+	</div>
+
+	<div class="mySlides fade">
+	<img src="/sportacademy/image/5.jpg" width="100%" height="700">
+	</div>
+	<div class="mySlides fade">
+  	<img src="/sportacademy/image/3.jpg" width="100%" height="700">
+  	</div>
+	</div>
+	<br>
+
+	<div style="text-align:center">
+  	<span class="dot"></span> 
+  	<span class="dot"></span> 
+  	<span class="dot"></span> 
+	</div>
+ 	<script>
+	var slideIndex = 0;
+	showSlides();
+	function showSlides() 
+	{
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 1400); 
+	}
+	</script>
+<div id="a">
+<h1>Sports We Offer</h1>
+<h3 ><i>Discover courses by topic</i></h4>
+	<p><i>
+		<b>JSR</b> is a sports academy where we train and advice sports person. We focus on continues growth and success and help to grow, shine and win. Our enthusiastic & dedicated team of coaches constantly looks for pioneering drills and exercises to suit the individual sportsperson’s needs instead of relying on a one size fits all approach.
+		</i> 
+	</p>
+</div>
+<div id="nw">
+	
+	
+</div>
+<footer>
+	Copyright2017 &copy; JSR123.com
+</footer>
+</body>
+</html>
+
+

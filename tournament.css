@@ -1,0 +1,33 @@
+    a{
+    	text-decoration:none;
+    }
+    #b{
+    	margin:0px 0px 0px;
+    	padding-bottom:20px;
+    	float:left;
+    }
+    #c{margin:0px 0px 0px;
+    	padding-bottom:20px;
+    	float:center;}
+   .img-circle {
+        border-radius: 50%;
+        margin:20px;
+        
+    }
+    h1{
+    	text-align: center;
+    }
+    #content {
+border: 1px solid red;
+position: relative;
+width: 500px;
+height: 400px;
+}
+ 
+#form_container {
+border: 1px solid green;
+display: none;
+position: absolute;
+top: 80px; 
+left: 100px 
+}
